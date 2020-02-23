@@ -1,7 +1,15 @@
 var axios = require("axios");
+var getToken = require("./auth");
 
-const api = axios.create({
-  baseURL: "https://api.twitter.com"
-});
+function callAPI(token) {
+  const api = axios.create({
+    baseURL: "https://api.twitter.com",
+    headers: {
+      Authorization: token
+    }
+  });
 
-module.exports = api;
+  return api;
+}
+
+module.exports = callAPI;
