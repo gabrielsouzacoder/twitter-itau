@@ -1,7 +1,7 @@
-import axios from "axios";
+var axios = require("axios");
 
 const api = axios.create({
   baseURL: "https://api.twitter.com"
 });
 
-export default api;
+module.exports = api;
