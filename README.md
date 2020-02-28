@@ -24,7 +24,7 @@ git clone https://github.com/gabrielsouzacoder/twitter-itau.git
 3 - Executar o docker-compose
 
 ```
-cd itau
+cd twitter-itau
 docker-compose up -d --build
 ```
 
