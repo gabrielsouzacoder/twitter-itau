@@ -31,22 +31,26 @@ docker-compose up -d --build
 4 - Aguarde que todos os containers estejam prontos
 5 - Para usar a aplicação acesse: [http://localhost:80](http://localhost)
 
+_PS: O container do logspout irá reiniciar algumas vezes até que o logstash esteja disponível._
+
 # Acessos do projeto
 
 - FRONT: [http://localhost:80](http://localhost)
 - KIBANA: [http://localhost:5601](http://localhost:5601/)
-  - Usuário: elastic
-  - Senha: changeme
+  - Usuário: **elastic**
+  - Senha: **changeme**
 - GRAFANA: [http://localhost:3000](http://localhost:3000/)
-  - Usuário: admin
-  - Senha: admin
+  - Usuário: **admin**
+  - Senha: **admin**
 - ELASTICSEARCH: [http://localhost:9200](http://localhost:9200/)
-  - Usuário: elastic
-  - Senha: changeme
+  - Usuário: **elastic**
+  - Senha: **changeme**
 - PROMETHEUS: [http://localhost:9090](http://localhost:9090/)
 
-# Métricas e monitorias
+# Imagens
 
+- Front
+  ![image](https://user-images.githubusercontent.com/9288359/75595817-9fab6880-5a6c-11ea-9885-d64824a2e89c.png)
 - Grafana
   ![image](https://user-images.githubusercontent.com/9288359/75583086-b68d9300-5a4b-11ea-901c-19ededf389b3.png)
 
