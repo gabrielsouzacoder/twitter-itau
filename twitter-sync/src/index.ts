@@ -1,7 +1,7 @@
 import TweetService from './services/tweet'
 import mongodb from './db/mongo'
 
-const list = ['samsung', 'apple', 'iphone', 'Neymar', 'IveteSangalo', 'JustinBieber', 'Euro2016', 'TheWalkingDead', 'StarWars']
+const list = ['openbanking', 'apifirst', 'devops', 'cloudfirst', 'microservices', 'apigateway', 'oauth', 'swagger', 'raml', 'openapis']
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 async function main () : Promise<any[]> {
