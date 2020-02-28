@@ -18,7 +18,7 @@ Responsável por baixar, tratar e disponibilizar dados do Twitter:
 2 - Baixar o código presente no repositório
 
 ```
-git clone
+git clone https://github.com/gabrielsouzacoder/twitter-itau.git
 ```
 
 3 - Executar o docker-compose
