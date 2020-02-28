@@ -1,0 +1,14 @@
+<table class="table table-responsive-sm">
+    <thead>
+        <tr>
+            <th scope="col">Hour</th>
+            <th scope="col">Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let hourslyPost of hourslyPostList">
+            <td>{{hourslyPost.hour}}</td>
+            <td>{{hourslyPost.count}}</td>
+        </tr>
+    </tbody>
+</table>

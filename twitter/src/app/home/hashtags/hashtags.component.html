@@ -1,0 +1,16 @@
+<table class="table table-responsive-sm">
+    <thead>
+        <tr>
+            <th scope="col">Hashtag</th>
+            <th scope="col">User Lang</th>
+            <th scope="col">Count</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let hashtag of hashtagList">
+            <td> <b>#</b>{{hashtag._id.hashtag}}</td>
+            <td>{{hashtag._id.userLang}}</td>
+            <td>{{hashtag.count}}</td>
+        </tr>
+    </tbody>
+</table>

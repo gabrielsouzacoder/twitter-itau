@@ -1,0 +1,54 @@
+@import "../../theme-scss/variables.scss";
+
+img {
+  max-width: 45px;
+  min-height: 20px;
+  margin-right: 5%;
+}
+
+.navbar {
+  box-shadow: 0px -8px 9px 0px rgba(89, 89, 89, 0.61);
+  display: flex;
+
+  .navbar-toggler {
+    border-color: $color-primary;
+
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(236,116,4)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+  }
+
+  .navbar-nav {
+    flex-wrap: wrap;
+
+    a {
+      color: #474747;
+      cursor: pointer;
+    }
+
+    a:hover {
+      color: $color-primary;
+    }
+  }
+}
+
+.breadcrumb {
+  background: $color-primary;
+  padding-left: 50px;
+  border-radius: 0px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+
+  li {
+    color: white;
+    font-weight: bold;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  .acessibilidade-area {
+    display: none;
+  }
+}
